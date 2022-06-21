@@ -1,13 +1,13 @@
 - ### 使用方式
   ```shell
-    npm i vuepress-plugin-live2d -S
+    npm i xff-vuepress-plugin-live2d@0.0.2 -S
 
   ```
   #### 然后在'/docs/.vuepress/config.js'里引入
   ```javascript
     plugins: [
       [
-        "xff-vuepress-plugin-live2d@0.0.1",
+        "xff-vuepress-plugin-live2d@0.0.2",
         {
           "modelName": "",
           "mobileShow": false
